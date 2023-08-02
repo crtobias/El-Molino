@@ -105,7 +105,7 @@ export const Dashboard = () => {
   }
 
   if (orders.length===0) {
-    return <h1>Loading...</h1>;
+    return <h1>Loading...</h1>
   }
 
   return (
@@ -159,7 +159,7 @@ export const Dashboard = () => {
           <ul>
             {order.item.map((item: any) => (
               <li className={styles.table} key={item._id}>
-                <h3>{item.title}</h3>
+                <h3>{item.dish.title}</h3>
                 <p>Quantity: {item.quantity}</p>
                 {item.observation && <p>Observation: {item.observation}</p>}
               </li>

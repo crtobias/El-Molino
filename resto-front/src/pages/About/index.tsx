@@ -68,7 +68,7 @@ export const About = () => {
         </div>
 
         <div className={styles.carta}>
-          <img className={styles.foto} src={carlos} alt="" />
+          <img id={styles.asdfsd} className={styles.foto} src={carlos} alt="" />
           <h3 className={styles.name}>carlos</h3>
           <div>
             <a className={styles.img} href="https://github.com/CERP27" target="_blank">
