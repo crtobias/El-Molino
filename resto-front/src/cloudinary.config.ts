@@ -1,0 +1,1 @@
+export const cloudName = import.meta.env.CLOUDINARY_NAME;

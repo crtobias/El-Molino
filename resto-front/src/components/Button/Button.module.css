@@ -1,0 +1,29 @@
+.button {
+  background: none;
+  border: .3rem solid var(--mill-white);
+  font-family: inherit;
+  color: inherit;
+  font-size: 3rem;
+  font-weight: 400;
+  padding: 1rem 4rem;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  z-index: -10;
+  background: var(--mill-orange);
+  transform: translateX(-110%) skew(25deg);
+  transition: .4s ease all;
+}
+
+.button:hover::before {
+  transform: translateX(-10%) skew(25deg);
+}

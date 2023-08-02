@@ -1,0 +1,238 @@
+.dish {
+  position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dish div {
+    flex: 1;
+  }
+  
+  .dish p {
+    font-style: italic;
+    text-transform: capitalize;
+    max-width: 80%;
+  }
+  .logo{
+  height: 30px;
+  width: 30px;
+  }
+  
+  .containerBoton{
+    height: 20px;
+    width: 20px;
+    
+  }
+  .logoDelete{
+
+  }
+
+  .a{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+
+.cart {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,.3);
+  z-index: 300;
+  flex-direction: column;
+}
+  @media (width >= 768px) {
+  
+    .dish {
+      flex: 1;
+    }
+  }
+  .cerrar{
+    height: 40px;
+  width: 90px;
+  flex: 1;
+margin: 2px;
+
+cursor: pointer;
+position: relative;
+padding: 10px 24px;
+font-size: 15px;
+color: rgb(193, 163, 98);
+border: 2px solid rgb(193, 163, 98);
+border-radius: 34px;
+background-color: transparent;
+transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+overflow: hidden;
+  }
+  
+.container {
+  position: relative;
+  background: rgba(0,0,0,.7);
+  padding: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh;
+  overflow: scroll;
+  overflow-y: none;
+
+}
+  
+  .container ul {
+    padding: 2rem 0;
+    flex: 1;
+  }
+
+.containerBoton{
+  position: relative;
+  z-index: 30;
+  border: none;
+  font-family: var(--font-2);
+  font-weight: 900;
+  color: var(--mill-white);
+  font-size: 2rem;
+}
+
+.buttons {
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+/* .buttonLeft {
+  background: rgb(13, 0, 128);
+  flex: 1;
+  height: 100%;
+}
+
+.buttonRight {
+  background: rgb(26, 255, 0);
+  flex: 1;
+  height: 100%;
+} */
+  
+.buttonLeft {
+  flex: 1;
+  margin: 2px;
+  cursor: pointer;
+  position: relative;
+  color: rgb(193, 163, 98);
+  border: 2px solid rgb(193, 163, 98);
+  border-radius: 34px;
+  background-color: transparent;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  overflow: hidden;
+  height: 3rem;
+  width: 3rem;
+}
+.buttonLeft::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 50px;
+  height: 100%;
+  border-radius: inherit;
+  scale: 0;
+  z-index: -1;
+  background-color: rgb(196, 213, 104);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.buttonLeft:hover::before {
+  scale: 3;
+}
+.buttonLeft:hover {
+  color: #212121;
+  scale: 1.1;
+  box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+}
+
+.buttonLeft:active {
+  scale: 1;
+}
+
+.buttonRight {
+  flex: 1;
+  margin: 2px;
+  cursor: pointer;
+  position: relative;
+  color: rgb(193, 163, 98);
+  border: 2px solid rgb(193, 163, 98);
+  border-radius: 34px;
+  background-color: transparent;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  overflow: hidden;
+  height: 3rem;
+  width: 3rem;
+}
+.buttonRight::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: inherit;
+  scale: 0;
+  z-index: -1;
+  background-color: rgb(192, 119, 119);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.buttonRight:hover::before {
+  scale: 3;
+}
+.buttonRight:hover {
+  color: #212121;
+  scale: 1.1;
+  box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+}
+
+.buttonRight:active {
+  scale: 1;
+}
+  
+  @media (width >= 768px) {
+    .container {
+      display: grid;
+      gap: 10rem;
+      padding: 10rem clamp(10rem, 10vw, 20rem);
+      grid-template-columns: repeat(auto-fill, minmax(Min(100%, 40rem), 1fr));
+    }
+  }
+  
+  .title{
+    border-bottom: 2px solid var(--mill-orange);
+  }
+.buttonPagar{
+  height: 40px;
+  width: 90px;
+  flex: 1;
+margin: 2px;
+
+cursor: pointer;
+position: relative;
+padding: 10px 24px;
+font-size: 15px;
+color: rgb(193, 163, 98);
+border: 2px solid rgb(193, 163, 98);
+border-radius: 34px;
+background-color: transparent;
+/* font-weight: 600; */
+transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+overflow: hidden;
+}
+.buttonPagar:hover{
+  background-color: #e6dfdf;
+}
+.cerrar:hover{
+  background-color: #e6dfdf;
+}

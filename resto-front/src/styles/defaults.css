@@ -1,0 +1,51 @@
+:root {
+  background-size: cover;
+  background-position: center;
+  color: var(--mill-2);
+  font-size: clamp(10px, .666vw, 20px);
+  font-family: var(--font-2), sans-serif;
+  color: var(--mill-white);
+  font-weight: 400;
+}
+
+:root::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -100;
+  filter: var(--background-filters);
+  background: var(--background-image);
+  background-size: cover;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  /* backface-visibility: hidden; */
+  /* z-index: 3; */
+  /* transform: translate3d(0, 0, 0); */
+}
+
+h1 {font-size: 4.0rem;}
+h2 {font-size: 3.6rem;}
+h3 {font-size: 3.2rem;}
+h4 {font-size: 2.8rem;}
+h5 {font-size: 2.4rem;}
+h6 {font-size: 2.0rem;}
+p  {font-size: 1.6rem;}
+small {font-size: 1.2rem;}
+
+main {min-height: 100vh;}
+
+button {cursor: pointer;}
+
+img { 
+  width: 100%;
+}
+

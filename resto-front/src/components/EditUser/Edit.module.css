@@ -1,0 +1,54 @@
+
+.tit{
+    font-family: var(--font-3);
+}
+.container{
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.editForm{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 15px;
+    background-color: #423830;
+    height:400px;
+    width: 350px;
+    padding: 25px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.messageInput{
+    height: 4rem;
+    width: 25rem;
+    border: 1px solid black;
+}
+
+.messageInput:hover{
+    background-color: #423830;
+    background-position: right;
+    transition-duration: 0.3s;
+    border: 1px solid white;
+    color: aliceblue;
+}
+.btn:hover{
+    background-color: #423830;
+    background-position: right;
+    transition-duration: 0.3s;
+    border: 1px solid white;
+    color: aliceblue;
+}
+.btn{
+    height: 4rem;
+    width: 15rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}

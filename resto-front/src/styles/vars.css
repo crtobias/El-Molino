@@ -1,0 +1,33 @@
+:root {
+  --white-1: #e4e3e1;
+  --white-2: #e0e0e0;
+  --white-3: #d4d4d4;
+  --white-4: #cfcfcf;
+
+  --black-1: #1b1c1e; 
+  --black-2: #1f1f1f; 
+  --black-3: #2b2b2b; 
+  --black-4: #303030; 
+
+  --font-1: "Ubuntu";
+  --font-2: "Quicksand";
+  --font-3: "Ewert";
+
+  --tablet: 768px;
+  --desktop: 1024px;
+
+  --background-1: #C5B490;
+  --color-1: #72503D;
+  --color-2: #523A2C; 
+  --color-3: #231611;
+
+  /* The Mill */
+  --mill-orange: #fba43a;
+  --mill-brown: #423830;
+  --mill-white: #f3f3f3;
+
+  --background-image: url("https://www.themillrestaurants.com/wp-content/themes/themills/img/home-bg.jpg");
+  --background-filters: brightness(.6);
+
+}
+

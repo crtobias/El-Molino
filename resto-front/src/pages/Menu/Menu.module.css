@@ -1,0 +1,27 @@
+.menu {
+  width: 100%;
+  /* background: var(--mill-white); */
+  /* padding: 1rem; */
+  /* font-family: var(--font-3); */
+}
+
+
+.menu h4 {
+  border-bottom: 1px solid var(--mill-orange);
+  padding: .5rem 0;
+}
+
+.menu h4 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.menu h6 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.menu li {
+  padding: 1.5rem 0;
+}
+

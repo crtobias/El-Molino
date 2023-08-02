@@ -1,0 +1,131 @@
+.contenedorLoginForm {
+
+    width: 75%;
+    max-width: 35rem;
+    height: 30rem;
+    background-color: var(--mill-brown);
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.contenedorLoginForm label {
+
+    font-size: 15px;
+
+}
+
+.contenedorLoginForm input {
+
+    width: 100%;
+    background: transparent;
+    border: transparent;
+    padding: 3px;
+    border-bottom: solid 2px;
+    border-color: var(--mill-white);
+    color: var(--mill-white);
+}
+
+.contenedorLoginForm input::placeholder {
+
+    color: rgb(156, 156, 156);
+}
+
+.contenedorLoginForm input:focus {
+
+    border: transparent;
+    color: var(--mill-white);
+}
+
+.contenedorLoginForm button {
+
+    width: 30%;
+    padding: 5px;
+    background: transparent;
+    border: solid 2px;
+    border-color: white;
+    color: white;
+}
+
+.contenedorLoginForm button:hover {
+
+    background-color: var(--mill-orange);
+}
+
+.mensajeError {
+
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.mensajeError p {
+
+    font-size: 15px;
+}
+
+.loginGoogle {
+
+    background-color: var(--mill-brown);
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    color: white;
+    border: solid 2px;
+    border-color: white;
+}
+
+.loginGoogle:hover {
+
+    background-color: var(--mill-orange);
+}
+
+.logout {
+    
+    width: 75%;
+    max-width: 35rem;
+    height: 15rem;
+    background-color: var(--mill-brown);
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.logout button {
+
+    width: 30%;
+    padding: 5px;
+    background: transparent;
+    border: solid 2px;
+    border-color: white;
+    color: white;
+    
+}
+
+.logout button:hover {
+
+    background-color: var(--mill-orange);
+}

@@ -1,0 +1,37 @@
+.stat {
+  background-color: rgba(0, 0, 0, 0.507);
+  margin: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.stat svg {
+  padding: 1rem;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.11);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.title {
+  font-family: var(--font-3);
+}
+
+.con {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.con div {
+  flex-direction: column;
+}
+
+@media (min-width: 850px) {
+  /* .con {
+    flex-direction: row;
+  } */
+}
